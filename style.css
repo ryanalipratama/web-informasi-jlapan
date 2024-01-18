@@ -64,7 +64,7 @@
     padding-left: 50px;
     padding-right: 90px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .data-penduduk-desa{
@@ -83,28 +83,8 @@
     font-size: 12px;
 }
 
-.gambar-desa{
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
 
-.jumlah-penduduk{
-    padding-top: 70PX;
-    padding-bottom: 70px;
-}
 
-.jumlah-penduduk h2{
-    color: #414141;
-    font-weight: bold;
-}
-
-.jumlah-penduduk p{
-    font-size: 12px;
-}
-
-.jumlah-penduduk .penduduk-rincian{
-    color: #51ACF8;
-}
 
 .wrapper-pengumuman{
     align-items: center;
@@ -235,6 +215,12 @@
         max-width: 60%;
     }
 
+    .gambar-desa{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 200px;
+    }
+
 
 }
 @media screen and (max-width: 576px) {
@@ -294,6 +280,11 @@
     .card-yang-akan-datang .card-coming-soon h5 {
         font-size: 12px;
         margin-left: 10px;
+    }
+
+    .gambar-desa{
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 }
 
@@ -437,7 +428,6 @@
 
 .info{
     padding: 90px 30px;
-    margin-top: 200px;
     color: white;
     background-color: #222B5A;
     display: flex;

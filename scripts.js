@@ -1,5 +1,8 @@
 const multipleItemCarousel = document.querySelector('#multipleItemCarousel');
 const carouselInner = $('.carousel-inner');
+const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+    keyboard: false, // Sesuaikan dengan kebutuhan Anda
+});
 
 let scrollPosition = 0;
 let carouselWidth, cardWidth;
@@ -59,5 +62,4 @@ $(window).on('resize', function () {
         $(multipleItemCarousel).addClass('slide');
     }
 });
-
 
