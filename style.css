@@ -12,6 +12,12 @@
 .navbar-brand{
     padding-left: 100px;
 }
+@media (max-width: 991px) {
+    .navbar-brand {
+      max-width: 100%;
+      margin-left: -100px;
+    }
+  }
 
 .navbar ul li a {
     position: relative;
@@ -41,8 +47,7 @@
 }
 
 .first-judul img{
-    width: 770px;
-    height: 624px;
+    width: 100%;
 }
 
 .karang-taruna{
