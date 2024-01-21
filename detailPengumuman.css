@@ -39,81 +39,6 @@
     width: 80%;
 }
 
-.first-judul{
-    padding: 90px 50px;
-    padding-right: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.first-judul img{
-    width: 100%;
-}
-
-.karang-taruna{
-    width: 60%;
-}
-
-.karang-taruna h1{
-    color: #414141;
-    font-weight: bold;
-    font-size: 75px;
-}
-
-.karang-taruna p{
-    font-size: 12px;
-    padding-top: 30px;
-}
-
-.data{
-    padding-left: 50px;
-    padding-right: 90px;
-    display: flex;
-    justify-content: center;
-}
-
-.data-penduduk-desa{
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.data-penduduk-desa h2{
-    color: #414141;
-    font-weight: bold;
-}
-
-.data-penduduk-desa p{
-    padding-top: 30px;
-    font-size: 12px;
-}
-
-
-
-
-.wrapper-pengumuman{
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: #222B5A;
-}
-
-.wrapper-pengumuman h2{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 30px;
-}
-
-.card-wrapper{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
-}
-
 .card{
     width: 350px;
     height: auto;
@@ -138,23 +63,10 @@
     height: 200px;
 }
 
-.btn-bottom{
-    margin: 30px;
-}
 
 @media screen and (min-width: 576px) {
     body {
       overflow-x: hidden;
-    }
-  
-    #carousel-inner-home {
-      display: flex;
-    }
-  
-    #carousel-item-home {
-      display: block;
-      margin-right: 0;
-      flex: 0 0 calc(100%/3);
     }
   
     #carouselCards {
@@ -163,7 +75,7 @@
         margin-bottom: 100px;
     }
     
-    #carousel-inner-detailPengumuman {
+    .carousel-inner-lPengumdetaiuman {
         display: block;
         justify-content: center;
         margin-right: 10px;
@@ -178,7 +90,7 @@
         padding-left: 80px;
     }
 
-    #carousel-control-prev-detailPengumuman{
+    .carousel-control-prev{
         width: 6vh;
         height: 6vh;
         background-color: #EB4A2D;
@@ -189,7 +101,7 @@
         margin-left: 30px;
     }
     
-    #carousel-control-next-detailPengumuman{
+    .carousel-control-next{
         width: 6vh;
         height: 6vh;
         background-color: #EB4A2D;
@@ -219,17 +131,10 @@
         flex: 0 0 60%; 
         max-width: 60%;
     }
-
-    .gambar-desa{
-        padding-top: 70px;
-        padding-bottom: 70px;
-        padding-left: 200px;
-    }
-
-
 }
+
 @media screen and (max-width: 576px) {
-    #carousel-control-prev-detailPengumuman{
+    .carousel-control-prev{
         width: 5vh;
         height: 5vh;
         background-color: #EB4A2D;
@@ -240,7 +145,7 @@
         margin-left: -20px;
     }
     
-    #carousel-control-next-detailPengumuman{
+    .carousel-control-next{
         width: 5vh;
         height: 5vh;
         background-color: #EB4A2D;
@@ -251,7 +156,7 @@
         margin-right: -40px;
     }
 
-    .card-yang-akan-datang {
+    .card-yang-akan-datang{
         display: flex;
         flex-wrap: wrap;
     }
@@ -287,99 +192,9 @@
         margin-left: 10px;
     }
 
-    .gambar-desa{
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    
+    .h3-cari-pengumuman{
+    margin-top: 50px;
 }
-
-.carousel-inner{
-    padding-left: 0
-}
-
-#carousel-control-prev-home{
-    width: 6vh;
-    height: 6vh;
-    background-color: #EB4A2D;
-    border-radius: 50%;
-    top: 50%;
-    transform: translate(-50%);
-    opacity: 1;
-    margin-left: 50px;
-}
-
-#carousel-control-next-home{
-    width: 6vh;
-    height: 6vh;
-    background-color: #EB4A2D;
-    border-radius: 50%;
-    top: 50%;
-    transform: translate(-50%);
-    opacity: 1;
-    margin-right: 5px;
-}
-
-
-
-
-.info{
-    padding: 90px 30px;
-    color: white;
-    background-color: #222B5A;
-    display: flex;
-    justify-content: space-between;
-}
-
-.lokasi a{
-    display: flex;
-    margin-top: 20px;
-}
-
-.lokasi p{
-    margin-left: 14px;
-}
-
-.lokasi-contact{
-    margin-top: 30px;
-}
-
-.lokasi-contact h2{
-    font-weight: bold;
-    font-size: 38px;
-}
-
-.lokasi-contact p{
-    font-size: 14px
-}
-.contact{
-    margin-top: 40px;
-}
-
-.contact h2{
-    font-weight: bold;
-}
-
-.contact a{
-    display: flex;
-}
-
-.sosmed{
-    margin-top: 20px;
-}
-
-.contact .facebook{
-    margin-left: 14px;
-}
-
-.contact p{
-    margin-left: 10px;
-}
-
-.maps iframe{
-    width: 500px;
-    height: 400px;
-    margin-top: 40px;
 }
 
 .footer{
@@ -394,7 +209,7 @@
     display: flex;
     justify-content: space-between;
     padding: 90px 10px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .bagian-kiri{
     width: 100%;
@@ -427,15 +242,22 @@
     height: 400px;
 }
 
-
-
 .cari-pengumuman{
     display: flex;
     justify-content: space-between;
 }
 
+.cari-pengumuman{
+    margin-bottom: 30px;
+}
+
+.cari-pengumuman .input-search{
+    border: black solid .5px;
+    margin-right: 7px;
+}
+
 .bagian-kanan h3{
-    padding-bottom: 20px;
+
     font-size: 20px;
     font-weight: bold;
     color: #414141;
@@ -468,7 +290,7 @@
 }
 
 #carouselCards{
-    padding-top: 30px;
+    margin-top: 50px;
 }
 
 .card-detailpengumuman{
