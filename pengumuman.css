@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .5);
+}
+
+
 .nav-link{
     font-size: 14px;
     color: #18191F;
@@ -63,17 +68,51 @@
     font-size: 15px;
 }
 
-.dropdown .btn{
-    font-size: 12px;
+.input-tanggal{
+    border: 1.5px solid #d10101;
+    color: #d10101;
+    border-radius: 7px;
+    padding: 5px;
 }
 
+.input-tanggal:hover{
+    border-color: #d10101;
+    border: 1.5px solid #d10101;
+    color: #d10101;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.dropdown .btn{
+    font-size: 12px;
+    border-color: #d10101;
+    color: #d10101;
+}
+
+.dropdown .btn:hover{
+    font-size: 12px;
+    background-color: #d10101;
+    color: white;
+}
+
+.dropdown-item.active,
+    .dropdown-item:active {
+        color: white;
+        background-color: #d10101;
+    }
+
 .btn-search{
-    background-color: #EB4A2D;
+    background-color: #d10101;
     color: white;
     width: 110px;
     margin-top: 40px;
 }
 
+.btn-search:hover {
+    background-color: white;
+    color: #d10101;
+    border-color: #d10101;
+}
 
 .berita-card{
     display: flex;
@@ -86,7 +125,7 @@
 }
 
 .tgl-berita-card{
-    background-color: #EB4A2D;
+    background-color: #d10101;
     width: 130px;
     height: 30px;
     font-size: 12px;
@@ -164,8 +203,36 @@
 }
 
 .cari-pengumuman .input-search{
-    border: black solid .5px;
+    border: #d10101 solid 1px;
     margin-right: 7px;
+    color: #d10101;
+}
+
+.cari-pengumuman .input-search::placeholder{
+    color: #b01818;
+}
+
+.btn-cari{
+    background-color: #d10101;
+    color: white;
+}
+
+.btn-cari:hover{
+    background-color: white;
+    color: #d10101;
+    border-color: #d10101;
+}
+
+.btn-cariSelengkapnya{
+    font-size: 12px;
+    border-color: #d10101;
+    color: #d10101;
+}
+
+.btn-cariSelengkapnya:hover{
+    font-size: 12px;
+    background-color: #d10101;
+    color: white;
 }
 
 
@@ -265,8 +332,6 @@
         margin-top: 50px;
         margin-left: 20px;
     }
-
-    
 }
 
 
@@ -274,7 +339,7 @@
     padding: 90px 30px;
     margin-top: 200px;
     color: white;
-    background-color: #222B5A;
+    background-color: #fbb917;
     display: flex;
     justify-content: space-between;
 }

@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .5);
+}
+
+
 .nav-link{
     font-size: 14px;
     color: #18191F;
@@ -37,6 +42,10 @@
 
 .navbar ul li a:hover::before {
     width: 80%;
+}
+
+.detail-pengumuman{
+    margin-top: 20px;
 }
 
 .card{
@@ -93,7 +102,7 @@
     .carousel-control-prev{
         width: 6vh;
         height: 6vh;
-        background-color: #EB4A2D;
+        background-color: #d10101;
         border-radius: 50%;
         top: 50%;
         transform: translate(-50%);
@@ -104,7 +113,7 @@
     .carousel-control-next{
         width: 6vh;
         height: 6vh;
-        background-color: #EB4A2D;
+        background-color: #d10101;
         border-radius: 50%;
         top: 50%;
         transform: translate(-50%);
@@ -137,18 +146,18 @@
     .carousel-control-prev{
         width: 5vh;
         height: 5vh;
-        background-color: #EB4A2D;
+        background-color: #d10101;
         border-radius: 50%;
         top: 50%;
         transform: translate(-50%);
         opacity: 1;
-        margin-left: -20px;
+        margin-left: -5px;
     }
     
     .carousel-control-next{
         width: 5vh;
         height: 5vh;
-        background-color: #EB4A2D;
+        background-color: #d10101;
         border-radius: 50%;
         top: 50%;
         transform: translate(-50%);
@@ -252,12 +261,40 @@
 }
 
 .cari-pengumuman .input-search{
-    border: black solid .5px;
+    border: #d10101 solid 1px;
     margin-right: 7px;
+    color: #d10101;
 }
 
-.bagian-kanan h3{
+.cari-pengumuman .input-search::placeholder{
+    color: #b01818;
+}
 
+.btn-cari{
+    background-color: #d10101;
+    color: white;
+}
+
+.btn-cari:hover{
+    background-color: white;
+    color: #d10101;
+    border-color: #d10101;
+}
+
+.btn-cariSelengkapnya{
+    font-size: 12px;
+    border-color: #d10101;
+    color: #d10101;
+}
+
+.btn-cariSelengkapnya:hover{
+    font-size: 12px;
+    background-color: #d10101;
+    color: white;
+}
+
+
+.bagian-kanan h3{
     font-size: 20px;
     font-weight: bold;
     color: #414141;

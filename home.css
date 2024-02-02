@@ -5,6 +5,11 @@
     
 }
 
+.navbar {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .5);
+}
+
+
 .nav-link{
     font-size: 14px;
     color: #18191F;
@@ -100,7 +105,7 @@
     text-align: center;
     width: 100%;
     height: auto;
-    background-color: #222B5A;
+    background-color: #fbb917;
 }
 
 .wrapper-pengumuman h2{
@@ -141,9 +146,27 @@
     height: 200px;
 }
 
+.btn-outline-danger{
+    border-color: #d10101;
+    color: #d10101;
+}
+
+.btn-outline-danger:hover {
+    background-color: #d10101;
+    color: white;
+}
+
 .btn-bottom{
     margin: 30px;
+    color: white;
+    background-color: #d10101;
+    
 }
+
+.btn-bottom:hover {
+    background-color: white;
+    color: #d10101;
+  }
 
 @media screen and (min-width: 576px) {
     body {
@@ -191,7 +214,7 @@
 .carousel-control-prev{
     width: 6vh;
     height: 6vh;
-    background-color: #EB4A2D;
+    background-color: #d10101;
     border-radius: 50%;
     top: 50%;
     transform: translate(-50%);
@@ -202,7 +225,7 @@
 .carousel-control-next{
     width: 6vh;
     height: 6vh;
-    background-color: #EB4A2D;
+    background-color: #d10101;
     border-radius: 50%;
     top: 50%;
     transform: translate(-50%);
@@ -213,7 +236,7 @@
 .info{
     padding: 90px 30px;
     color: white;
-    background-color: #222B5A;
+    background-color: #fbb917;
     display: flex;
     justify-content: space-between;
 }
